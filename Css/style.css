@@ -131,11 +131,11 @@ margin-top:50px;
   /* Footer Styles */
 
 footer{
-    background-color:lightblue;
-    display:inline-block;
-    align-items:center;
-    width:100%;
-    padding:1%;
+  flex-direction:row;
+  background-color:lightblue;
+  width:100%;
+  padding:1%;
+  text-align:center;
   }
   
   
