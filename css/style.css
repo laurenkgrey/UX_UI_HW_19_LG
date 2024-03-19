@@ -1,0 +1,183 @@
+/* navigation */
+
+li{
+    display:inline-block;
+    vertical-align:top;
+    margin:0 40px;
+  }
+  
+  .logo{
+    text-align:center;
+    width:10%;
+    padding:1%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+  
+    }
+  
+  nav{
+    flex-direction:row;
+    background-color:lightblue;
+    width:100%;
+    padding:1%;
+    text-align:center;
+  }
+  
+  /* Content styles */
+  
+  ul{
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  
+  .herolmg {
+    height:600px;
+    padding:25px;
+  }
+  
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .content{
+    width:500px;
+    margin:0 auto;
+  }
+  
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+/* My Skills */
+
+.mySkills {
+    margin-top:50px;
+}
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px){ 
+    .column1 {
+      width: 100%;
+      display: block;
+      flex-direction:row-reverse;
+  }
+  }
+  
+
+  
+/* MyWork */
+
+.myWork{
+margin-top:50px;
+}
+
+.grid-container {
+  display:grid;
+  grid-template-columns: auto auto;
+  background-color: #987fb2;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-left:50px;
+  margin-right:50px;
+  margin-top:50px
+ 
+}
+
+.item1{
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.item2{
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.item3{
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.item4{
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.h1 {
+    margin-top:200px;
+}
+
+
+  
+
+  /* Footer Styles */
+
+footer{
+  flex-direction:row;
+  background-color:lightblue;
+  width:100%;
+  padding:1%;
+  text-align:center;
+  }
+  
+  
+  .footer a{
+   display:inline-block;
+   vertical-align:top;
+   padding:2px;
+  }
+
+  /* MySkills Accordian */
+
+ /* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: lightblue;
+    color: #000000;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin-top:20px;
+    font-size:20px;
+    
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
+
+ 
+
+  
+
+
